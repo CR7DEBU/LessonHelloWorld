@@ -19,11 +19,11 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 [![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
+<!-- [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+[![LinkedIn][linkedin-shield]][linkedin-url] -->
 
 
 
@@ -93,7 +93,7 @@
 
 ### Built With
 
-* .NET 7
+* [![Next][Next.js]][Next-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
