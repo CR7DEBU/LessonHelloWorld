@@ -41,7 +41,7 @@ namespace HelloWorld.Projects
 
         public void Calculator()
         {
-
+            
         }
 
 
@@ -59,6 +59,6 @@ namespace HelloWorld.Projects
         }
 
 
-        
+
     }
 }

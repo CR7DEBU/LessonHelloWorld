@@ -1,15 +1,22 @@
-﻿using System;
-using HelloWorld.Projects;
+﻿using HelloWorld.Languages;
 
 namespace CheckOddEven
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            var basicProjects = new BasicProjects();
+            int a, b;
 
-            basicProjects.EvenOdd();
+
+            C.Printf("Enter a number: ");
+            a = C.Scanf();
+            C.Printf("Enter a number: ");
+            b = C.Scanf();
+
+            a = a + b;
+            a = a + b;
+            C.Printf("The result is: " + a);
         }
     }
 }
