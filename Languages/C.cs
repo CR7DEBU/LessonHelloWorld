@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace HelloWorld.Language
+namespace HelloWorld.Languages
 {
     public class C
     {
@@ -20,6 +20,11 @@ namespace HelloWorld.Language
             return int.Parse(input);
         }
 
+
+        public static void Printf(string value)
+        {
+            Console.WriteLine(value);
+        }
         
     }
 }
