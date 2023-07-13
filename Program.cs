@@ -1,6 +1,4 @@
-﻿using System;
-using HelloWorld.Languages;
-using HelloWorld.Projects;
+﻿using HelloWorld.Languages;
 
 namespace CheckOddEven
 {
