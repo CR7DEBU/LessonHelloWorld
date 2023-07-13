@@ -16,7 +16,7 @@ namespace CheckOddEven
 
             a = a + b;
             a = a + b;
-            C.Printf("The result is: " + a);
+            C.Printf("The result from  is: " + a);
         }
     }
 }
