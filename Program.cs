@@ -1,22 +1,41 @@
-﻿using HelloWorld.Languages;
+﻿using System.Diagnostics.CodeAnalysis;
+using System.Globalization;
+using System.Reflection.Metadata;
+using HelloWorld.Languages;
+using HelloWorld.Lessons;
 
-namespace CheckOddEven
+namespace HelloWorld
 {
     public class Program
     {
         static void Main()
         {
-            int a, b;
+
+            C.Printf("Input the function (1 for Triangle, 2 for Others.... : )");
+            int inp = C.Scanf();
+
+            // C.Printf("Input first value: ");
+            // int x, y;
+            // x = C.Scanf();
+            // C.Printf("Input second value: ");
+            // y = C.Scanf();
+
+            C.Printf("Input row count : ");
+            int row = C.Scanf();
 
 
-            C.Printf("Enter a number: ");
-            a = C.Scanf();
-            C.Printf("Enter a number: ");
-            b = C.Scanf();
+            if (inp == 1)
+            {
+                Pattern.Triangle(row);
+            }
+            else
+            {
+                
+            }
 
-            a = a + b;
-            a = a + b;
-            C.Printf("The result from  is: " + a);
         }
+
+
     }
 }
+
